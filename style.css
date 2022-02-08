@@ -1,0 +1,149 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0px 90px;
+    min-width: 900px;
+
+    
+}
+.header{
+    display: flex;
+    background-color: #1f2937;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 100px; 
+
+     
+    
+}
+.sub-header{
+    display: inline-flex;
+    flex-direction: row;
+    /*outline: blue;*/
+    /*margin: 10px;*/
+    background-color:#1f2937;
+    padding:50px 100px;
+    
+
+}
+.text-container{
+    
+}
+img{
+    display:flex;
+    padding:50px;
+    max-width:400px 
+    
+}
+.text-container button{
+    flex-shrink: 0;
+    text-align: center;
+    background-color:#3882f6 ;
+    color: white; 
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+.text{
+    color:#e5e7eb;
+    max-width: 400px;
+    
+}
+.bold-text{
+    /*display:block;*/
+    max-width:300px;
+    flex-wrap:wrap;
+    color:white;
+    font-weight:800;
+    font-size:38px;
+    flex-wrap: wrap;
+    
+    
+}
+.text-container{
+    /*outline: orange;*/
+}
+.logo{
+    font-weight: bold;
+    color:white;
+    display: flex;
+}
+a{
+    color:#e5e7eb;
+    text-decoration: none;
+    flex-wrap:none;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 10px;
+}
+.box-container button{
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: transparent;
+    border-width: .5em;
+}
+.box-text{
+    height:150px;
+    width:150px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+}
+.mid-body-head{
+    
+    text-align: center;
+    padding: 50px;
+    font-size:36px;
+    font-weight: bold;;
+    
+}
+.mid-body-2{
+    background-color:#e5e7eb ;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+
+}
+.bottom-body{
+    display: flex;
+    flex-direction: column;   
+}
+
+.inner-bottom{
+    background-color: #3882f6;
+    color:white;
+    display: inline-flex;
+    flex-direction: row;
+    flex:auto;
+    margin:100px;
+    padding: 20px;
+}
+.mid-body{
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.mid-body-2 div{
+    display: flex;
+    justify-content:flex-end;
+    font-weight: ;
+}
