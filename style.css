@@ -10,7 +10,6 @@ body{
 .header{
     display: flex;
     background-color: #1f2937;
-
     justify-content: space-between;
     align-items: center;
     padding:0px 100px; 
@@ -19,10 +18,9 @@ body{
 .sub-header{
     display: inline-flex;
     flex-direction: row;
-    /*outline: blue;*/
-    /*margin: 10px;*/
     background-color:#1f2937;
     padding:50px 100px;
+    justify-content: space-between;
 }
 img{
     display:flex;
@@ -133,6 +131,7 @@ ul{
     margin:100px;
     padding: 20px;
     border-radius: .3em;
+    justify-content: space-between;
 }
 .mid-body{
     display: flex;
@@ -162,7 +161,7 @@ ul{
     border-color:#e5e7eb;
     border-radius: 1em;
     color:#e5e7eb;
-    margin-left: 150px;
+    margin-right: 50px;
     width: 100px;
 }
 .redundant{
