@@ -14,8 +14,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding:0px 100px; 
-
-     
     
 }
 .sub-header{
@@ -25,17 +23,11 @@ body{
     /*margin: 10px;*/
     background-color:#1f2937;
     padding:50px 100px;
-    
-
-}
-.text-container{
-    
 }
 img{
     display:flex;
     padding:50px;
     max-width:400px 
-    
 }
 .text-container button{
     flex-shrink: 0;
@@ -43,27 +35,30 @@ img{
     background-color:#3882f6 ;
     color: white; 
     border-radius: 25px;
-    padding: 10px;
-    
+    padding: 10px 20px;  
 }
 .text{
     color:#e5e7eb;
     max-width: 400px;
+    margin-top:0;
+    font-size: 15px;
     
 }
 .bold-text{
     /*display:block;*/
     max-width:300px;
     flex-wrap:wrap;
-    color:white;
+    color:#f9faf8;
     font-weight:800;
     font-size:38px;
     flex-wrap: wrap;
+    margin-bottom:0;
     
     
 }
 .text-container{
     /*outline: orange;*/
+    min-width:300px;
 }
 .logo{
     font-weight: bold;
@@ -121,7 +116,8 @@ ul{
 }
 .bottom-body{
     display: flex;
-    flex-direction:row;  
+    flex-direction:row;
+    border-radius:1em;
 }
 .inner-bottom{
     display: flex;
@@ -136,6 +132,7 @@ ul{
     flex:auto;
     margin:100px;
     padding: 20px;
+    border-radius: .3em;
 }
 .mid-body{
     display: flex;
@@ -165,12 +162,13 @@ ul{
     border-color:#e5e7eb;
     border-radius: 1em;
     color:#e5e7eb;
-    margin-left: 50px;
+    margin-left: 150px;
     width: 100px;
 }
 .redundant{
     color:#d3d4d1;
     font-size: 10px;
+    margin-top:0px;
     
 }
 .inner-bottom{
